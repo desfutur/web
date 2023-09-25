@@ -11,6 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- línea para adaptar controlar la escala en dispositivos móviles-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- línea para catálogo de iconos-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 	</head>
 	<body class="landing is-preload">
 
@@ -22,15 +26,33 @@
 						<h1><a href="index.html">DesFutur</a></h1>
 						<nav id="nav">
 							<ul>
-								<li class="special">
+								<li class="actions special">
 									<!-- Nav -->
 									<nav id="nav">
-									<ul class="actions">
-										<li><a href="#" class="button">Introducción</a></li>
-										<li><a href="#" class="button">Resumen</a></li>
-										<li><a href="#" class="button">Quienes somos</a></li>
-										<li><a href="#" class="button">Noticias</a></li>
-										<li><a href="#" class="button">Contacto</a></li>
+									<ul class="actions special">
+										<li><a href="#one" class="button scrolly">Sobre Desfutur</a></li>
+										<li><a href="#two" class="button scrolly">Resumen del proyecto</a></li>
+										<li><a href="#three" class="button scrolly">Líneas de trabajo</a></li>
+										<li><a href="#footer" class="button scrolly">Noticias y redes</a></li>
+										<li><a href="#cta" class="button scrolly">Contacto</a></li>
+										<li class="special">
+											<a href="#menu" class="menuToggle"><span>Menu</span></a>
+											<div id="menu">
+												<ul>
+													<li><a href="resumen.html">Detalles Desfutur</a></li>
+													<li><a href="quienessomos.html">Quienes somos</a></li>
+													<li><a href="elements_decaimiento.html">-*Decaimiento*-</a></li>
+													<li><a href="elements_invasoras.html">-*Invasoras*-</a></li>
+													<li><a href="elements_incendios.html">-*Incendios*-</a></li>
+													<li><a href="elements_modelos.html">-*Modelado*-</a></li>
+													<li><a href="elements_transferencia.html">-*Transferencia*-</a></li>
+													<li><a href="elements_imagenes.html">Desfutur en Imágenes</a></li>
+													<li><a href="elements_noticiasyredes.html">Desfutur en redes</a></li>
+													<li><a href="elements_publicaciones.html">Desfutur Científica</a></li>
+
+												</ul>
+											</div>
+										</li>
 									</ul>
 									</nav>
 								</li>
@@ -40,7 +62,10 @@
 
 				<!-- Banner -->
 					<section id="banner">
-						<span class="logo"><img src="images/6-yellowcream.svg" alt="" /></span>
+						<div style="text-align: center;">
+							<img src="images/6-yellowcream.svg" alt="" height="auto" />
+						</div>
+						<!--<span class="logo"><img src="images/6-yellowcream.svg" alt="" height="auto" /></span>--> <!-- el height auto para controlar la escala en dispositivos móviles-->
 						<div class="inner">
 							<h2>Estudio de la dinámica espacio-temporal de la desertificación en el sudeste de la Península Ibérica</h2>
 							<p><br />
@@ -52,7 +77,7 @@
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Introducción</h2>
+								<h2>Sobre Desfutur</h2>
 								<p align="justify">El proyecto "Desfutur" es una iniciativa de la Universidad de Córdoba respaldada por la Fundación Biodiversidad. Este proyecto ha sido financiado a través de la "Convocatoria para la investigación en materia de gestión de la biodiversidad", en el marco del plan de recuperación, transformación y resiliencia. Dicho plan, respaldado por la Unión Europea a través de NextGenerationEU, tiene como objetivo fomentar la recuperación sostenible y transformadora.</p>
 							</header>
 							<span class="center"><img src="images/Logo_all_color_blanco.jpg" alt="comunication" style="width: 100%;" /></span>
@@ -71,9 +96,10 @@
 						<section class="spotlight">
 							<div class="image"><img src="images/DreamShaper_v6_drought_soil_fire_damage_forest_gradient_biodiv_1 - copia.jpg" alt="" /></div><div class="content">
 								<h2>Resumen del proyecto</h2>
-								<p align="justify">La Universidad de Córdoba pretende sumar al conocimiento en la lucha contra la desertificación. Estudiamos la vulnerabilidad y resiliencia ante el estrés climático, detectando puntos críticos y señales tempranas de ecosistemas forestales del sudeste de la Península Ibérica. Analizamos y modelamos la dinámica espacio-temporal de tres impulsores clave de desertificación: decaimiento forestal debido a eventos climáticos extremos, invasiones biológicas e incendios. Abarcamos un gradiente de aridez involucrando a los actores locales entre las provincias de Granada, Almería y Murcia. Utilizanmos métodos avanzados, combinados con datos en campo y teledetección para detectar diferentes patrones para simular diferentes escenarios climáticos y de gestión a futuro, como información útil para frenar la desertificación y a minimizar sus efectos.</p>
+								<p align="justify">La Universidad de Córdoba pretende sumar al conocimiento en la lucha contra la desertificación. Estudiamos la vulnerabilidad y resiliencia ante el estrés climático, detectando puntos críticos y señales tempranas de ecosistemas forestales del sudeste de la Península Ibérica. Analizamos y modelamos la dinámica espacio-temporal de tres impulsores clave de desertificación: DECAIMIENTO forestal debido a eventos climáticos extremos, INVASIONES biológicas e INDCENDIOS forestales. Abarcamos un gradiente de aridez involucrando a los actores locales entre las provincias de Granada, Almería y Murcia. Utilizamos métodos avanzados, combinados con datos en campo y teledetección para detectar diferentes patrones para simular diferentes escenarios climáticos y de gestión a futuro, como información útil para frenar la desertificación y a minimizar sus efectos.</p>
 								<ul class="actions">
-									<li><a href="generic.html" class="button">Ver esquema</a></li>
+									<li><a href="resumen.html" class="button">Más información</a></li>
+									<li><a href="quienessomos.html" class="button">Quienes somos</a></li>
 								</ul>
 							</div>
 						</section>
@@ -93,7 +119,6 @@
 							<div class="image"><img src="images/group_4632735.png" alt="" style="width: 45%;" /></div><div class="content">
 								<h2>COMUNICACIÓN TRASLACIONAL</h2>
 								<p>Diseñar mecanismos de comunicación efectivos entre gestores, científicos y actores locales de las zonas de estudio para promover la aplicación de los resultados obtenidos al proceso de toma de decisiones.</p>
-
 							</div>
 						</section>
 						<section class="spotlight">
@@ -109,46 +134,49 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Quiénes somos</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Líneas de trabajo</h2>
+								<p>Estas son las principales líneas de trabajo que abarca el proyecto Desfutur.</p>
 							</header>
 							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h4>Pablo González-Moreno</h4>
-									<p>Investigador Principal.</p>
+								<li class="">
+									<ul class="icons major">
+										<span class="icon solid fa-tree major style1"></span>	
+									</ul>
+									<h4>DECAIMIENTO FORESTAL</h4>
+									<p>Estudio y caracterización del decaimiento forestal en un gradiente de aridez</p>
+									<a href="esquema_decaimiento.html" class="button">Más</a>
 								</li>
-								<li class="icon solid fa-laptop">
-									<h4>Francisco Javier Bonet-García</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="">
+									<ul class="icons major">
+										<span class="icon solid fa-leaf major style1"></span>	
+									</ul>
+									<h4>INVASIONES BIOLÓGICAS</h4>
+									<p>Caracterización espacio-temporal de la expansión e impacto de tres plantas exóticas invasoras en un gradiente de aridez</p>
+									<a href="elements_invasoras.html" class="button">Más</a>
 								</li>
-								<li class="icon solid fa-code">
-									<h4>Rafael M Navarro-Cerrillo</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="">
+									<ul class="icons major">
+										<span class="icon solid fa-fire major style1"></span>	
+									</ul>
+									<h4>INCENDIOS FORESTALES</h4>
+									<p>Caracterización de las trayectorias de recuperación tras incendio en un gradiente de aridez</p>
+									<a href="elements_incendios.html" class="button">Más</a>
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h4>Rocío Hernández-Clemente</h4>
+								<li class="">
+									<ul class="icons major">
+										<span class="icon solid fa-laptop major style1"></span>	
+									</ul>
+									<h4>MODELAMIENTO Y SIMULACIONES</h4>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+									<a href="elements_modelos.html" class="button">Más</a>
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h4>Cristina Acosta-Muñoz</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h4>María Suárez-Muñoz</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h4>Jessica Bernal</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h4>Edward Velasco</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h4>Javier Moreno</h4>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="">
+									<ul class="icons major">
+										<span class="icon solid fa-users major style1" /></span>	
+									</ul>
+									<h4>TRANSFERENCIA de conocimientos</h4>
+									<p>Estrategias para la co-creación y divulgación del conocimiento</p>
+									<a href="elements_transferencia.html" class="button">Más</a>
 								</li>
 							</ul>
 							<ul class="actions special">
@@ -156,28 +184,44 @@
 							</ul>
 						</div>
 					</section>
+					
+				<!-- Footer -->
+				<section id="footer">
+					<div class="inner">
+							<h2>Noticias y redes</h2>
+						<ul class="features">
+							<li class="icon fa-light fa-image">
+								<h4>Desfutur en Imágenes</h4>
+								<p>Resumen gráfico de algunas acciones del proyecto.</p>
+								<a href="elements_imagenes.html" class="button">Más</a>
+							</li>
+							<li class="icon fa-paper-plane">
+								<h4>Publicación en redes</h4>
+								<p>Enlaces a publicaciones en redes y otros medios.</p>
+								<a href="elements_noticiasyredes.html" class="button">Más</a>
+							</li>
+							<li class="icon solid fa-globe-europe">
+								<h4>Participación científica</h4>
+								<p>Artículos y presentaciones en eventos científicos.</p>
+								<a href="elements_publicaciones.html" class="button">Más</a>
+							</li>
+						</ul>
+					</div>
+				</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>CONTACTO Y REDES</h2>
-								<p>hopefully desfutur@uco.es</p>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
+								<h2>CONTACTO</h2>
+								<p>desfutur@uco.es</p>
 							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+							<ul class="actions special">
+								<li><a href="#" class="button primary">Subir</a></li>
 							</ul>
 						</div>
 					</section>
-					
+				<!-- 
 					<section>
 						<section id="cta" class="wrapper style4">
 							<header class="inner">
@@ -230,7 +274,7 @@
 								</div>
 							</div>
 						</form>
-					</section>
+					</section>-->
 
 
 				<!-- Footer -->
